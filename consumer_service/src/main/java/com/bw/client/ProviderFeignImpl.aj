@@ -9,7 +9,5 @@ import java.util.List;
 public interface ProviderFeignImpl {
 
     @RequestMapping("/provider/users")
-    public List<String> selectAllUser();
-
-
+    public List<String> selectAllUsers();
 }
